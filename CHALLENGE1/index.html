@@ -1,0 +1,222 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Digital Agency</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            margin-top: 1em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .section {
+            padding: 5em 2em;
+            text-align: center;
+            background-color: #fff;
+            margin: 2em 0;
+            border-radius: 10px;
+        }
+
+        .intro {
+            background-color: #333;
+            color: white;
+            padding: 5em 0;
+        }
+
+        .intro h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+        }
+
+        .services,
+        .testimonial,
+        .contact {
+            background-color: #fff;
+        }
+
+        .services h2,
+        .testimonial h2,
+        .contact h2 {
+            font-size: 2em;
+            margin-bottom: 1.5em;
+        }
+
+        .services .service-item,
+        .testimonial .testimonial-item {
+            display: inline-block;
+            margin: 1.5em;
+            padding: 2em;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            width: 30%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .services .service-item h3,
+        .testimonial .testimonial-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+        }
+
+        .service-item img,
+        .testimonial-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1em;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 1em 2em;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .services .service-item,
+            .testimonial .testimonial-item {
+                width: 100%;
+                margin: 1em 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MY CREATIVE DIGITAL AGENCY</h1>
+        <nav>
+            <a href="#">Services</a>
+            <a href="#">Testimonial</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome to Our Creative Agency</h2>
+        <p>We provide outstanding digital solutions for your business needs. Let's get started!</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <img src="1st landing.jpg" alt="Service 1">
+            <h3>Responsive Design</h3>
+            <p>We create designs that work great on phones, tablets, and desktops.</p>
+        </div>
+
+        <div class="service-item">
+            <img src="service2.jpg" alt="Service 2">
+            <h3>Easy Customization</h3>
+            <p>Change fonts, colors, and layouts easily to fit your brand.</p>
+        </div>
+
+        <div class="service-item">
+            <img src="service3.jpg" alt="Service 3">
+            <h3>User Experience</h3>
+            <p>We focus on creating seamless and intuitive user experiences.</p>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-item">
+            <img src="testemonial1.jpg" alt="Testimonial 1">
+            <h3>John Doe</h3>
+            <p>"This agency transformed my business online. Highly recommended!"</p>
+        </div>
+
+        <div class="testimonial-item">
+            <img src="testemonial2.jpg" alt="Testimonial 2">
+            <h3>Jane Smith</h3>
+            <p>"Great customer service and attention to detail. The best in the business!"</p>
+        </div>
+
+        <div class="testimonial-item">
+            <img src="testemonial3.jpg" alt="Testimonial 3">
+            <h3>Michael Lee</h3>
+            <p>"Their team is extremely professional and dedicated. I'm very satisfied with the results."</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 My Creative Digital Agency. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+</body>
+</html>
